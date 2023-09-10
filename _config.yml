@@ -1,0 +1,220 @@
+# Site
+repository: egubaidullin/resume-theme #sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Eduard Gubaidullin
+title: CIO / IT Director / Head of IT
+email: egubaidullin@gmail.com
+website: cv.egub.win
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+
+#twitter_username: egubaidullin
+#github_username:  egubaidullin
+
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: eduard_gubaidullin
+linkedin_username: egub
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: egub.win
+  icon: fas fa-globe
+  url: https://cv.egub.win
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Additional icon links
+# additional_links:
+- title: Pdf Download
+  icon: far fa-file-pdf
+  url: https://github.com/egubaidullin/egubaidullin.github.io/raw/main/Gubaidullin_Eduard_CV_ENG.pdf
+
+# additional icon to telegram 
+- title: Telegram
+  icon: fa fa-telegram
+  url: https://t.me/ed365
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-5SMXM7W"
+# gtag: "UA-245371663-1"
+# google_analytics: "UA-245371663-1"
+
+# About Section
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Eduard. I'm a data-driven, goal-oriented leader with 10+ years experience in IT leadership positions. Design and implementation business strategies to maximize today’s opportunities while preparing for the future.
+  
+  I am most skilled in: <mark>Leadership</mark>, <mark>Adaptability</mark>, <mark>Communication</mark>, <mark>Mentorship</mark>, <mark>IT-Management</mark>, <mark>IOT</mark>, <mark>Digitalization and Digital Transformation</mark> and <mark>IT Strategy</mark>
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Electronic school diary, 2006
+  #       link: github.com/egubaidullin
+  #       # link_text: Project Website
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: FINOTEC CO., LTD.
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Head Of Information Technology Department
+        caption: November 2020 - Present
+        quote: >
+          Management of IT service in an international Company with branches in three countries of Southeast Asia and Europe.
+        description: | # this will include new lines to allow paragraphs
+          - Successfully manage IT services across an international company with branches in Southeast Asia and Europe.
+          - Led the overhaul of the IT department, achieving operational efficiency and ensuring 24/7/365 availability of critical services.
+          - Fostered a culture of transparency, collaboration, accountability, and excellence within the IT team.
+          - Spearheaded the creation of infrastructure from the ground up.
+          - Orchestrated the seamless migration of crucial systems to the cloud.
+          - Managed commercial aspects, oversaw tenders, vendor selection, and maintained vendor relationships.
+          - Implemented diverse solutions and technologies, including Fortigate, Cisco, Symantec, VMware, Tableau, Microsoft, Synology, Bitrix24, Flyfonetalk, Line, Google Workspace, Google Cloud, Docker/Kubernetes, Zabbix, and Grafana.
+          - Managed IT services for over 1000 users.
+          
+      - layout: left
+        title: NDA
+        caption: 2016 - Present
+        sub_title: Director of IT
+        quote: >
+          Business consulting.
+        description: | # this will include new lines to allow paragraphs
+          - Developed a comprehensive import substitution roadmap and executed related measures.
+          - Trimmed IT expenses by 22% by optimizing the IT budget and reducing cloud resource wastage by 25%.
+          - Orchestrated the integration of retail automation and SaaS services, enhancing ordering, shelf space optimization, and loyalty systems.
+          - Spearheaded the digitization and optimization of business processes.
+          - Integrated cloud services "Moy Sklad" and "Business.Ru" with various marketplaces and online stores.
+          - Implemented IoT projects involving ZigBee, Z-Wave, MQTT, BLE, and LTE-M.
+          - Leveraged SaaS solutions for dashboards and analytics.
+          - Dedicated to employee development, training, and mentorship.
+          
+      - layout: left
+        title: LLC Managing Company "Salute"
+        caption: 2016 - 2018
+        sub_title: Head of IT Department
+        quote: >
+          A large retail chain of stores.
+        description: | # this will include new lines to allow paragraphs
+          - Devised and executed an impactful IT development strategy.
+          - Streamlined and digitized business processes, leading to an 8% reduction in IT operating costs.
+          - Introduced a training and testing system, enhancing personnel quality.
+          - Implemented a Business Intelligence solution.
+          - Achieved a 70% reduction in paper costs and an 80% increase in process speed through Electronic Document Management System implementation.
+
+      - layout: left
+        title: OMC
+        caption: 2015 - 2016
+        sub_title: Head of IT Department
+        quote: >
+          Maintenance of the IT infrastructure of a distributed Arctic town (about 30 thousand people) during the construction of an LNG plant (the largest international project in Russia) of remote hard-to-reach facilities 24/7.
+        description: | # this will include new lines to allow paragraphs
+          - Oversaw IT infrastructure maintenance for a distributed Arctic town during the construction of a remote LNG plant, ensuring 24/7 support.
+          - Managed wireless communication using radio relay equipment for remote facilities.
+          - Achieved a 97.8% Customer Satisfaction (CSAT) rate.
+
+      - layout: left
+        title: SPAR International
+        caption: 2010 - 2015
+        sub_title: Head of IT Department
+        quote: >
+          A regional retail chain of stores.
+        description: | # this will include new lines to allow paragraphs
+          - Drove the development and implementation of an enterprise-wide IT strategy as part of Digital Transformation efforts.
+          - Optimized the annual IT infrastructure budget and consistently improved optimization through technology enhancements.
+          - Formed and motivated a team of specialists, resulting in the growth of four leaders.
+          - Orchestrated the digitalization of processes and the implementation of corporate business intelligence.
+          - Implemented a warehouse management system, leading to reduced errors, faster order assembly, and up to 15% inventory reduction.
+          - Achieved an 11% reduction in logistics costs and optimized car loading.
+          - Reduced IT operating costs by 30% through budget optimization.
+          - Ensured regulatory compliance for the trading and accounting system.
+          - Introduced EDI system for order optimization, resulting in an 11% cost reduction.
+          - Pioneered a loyalty system and an auto-order system, lowering costs and enhancing customer service.
+          - Established a video surveillance department to minimize financial losses and improve customer service quality.
+
+          
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Moscow Technical Institute
+        caption: 2022
+        sub_title: Project management
+
+      - layout: left
+        title: Yandex School of Data Analysis
+        caption: 2022
+        sub_title: Cloud Service Engineer
+        
+      - layout: left
+        title: Sterlitamak State Pedagogical Institute
+        caption: 2006
+        sub_title: Technology and Entrepreneurship
+
+
+
+ # - title: Projects # Title for the section
+ #   layout: list # Type of content section (list/text)
+ #   content:
+ #     - layout: top-middle
+  #      border: weak 
+ #       title: Electronic school diary, 2006
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+             I am passionate about photography and self development.
+  #          And I am also a happy father of twins boys.
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+
+        
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
