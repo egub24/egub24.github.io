@@ -1,2 +1,2 @@
-User-Agent: SputnikBot;
-Disallow:/
+User-agent: *
+Disallow: /
